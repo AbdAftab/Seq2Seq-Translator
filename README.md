@@ -7,6 +7,7 @@ For most of these tests, we used the sentence **"une femme française moyenne ma
 
 ## Epoch 0/100
 Below, we can see that there's no real direction or real understanding of language within our model. The words here don't really have any correlation to our target sentence.
+
 ![image](https://github.com/AbdAftab/Seq2Seq-Translator/assets/57965010/52509361-14fc-4790-a6e8-015d1c9173e7)
 
 ## Epoch 1/100
@@ -28,6 +29,7 @@ After Epoch 30, I didn't see much improvement (other than the <unk> token being 
 
 ## Another Sentence Sample Test
 Using a version of the model that was stopped at ~50 epochs in, I fed it a new sentence, **"La femme répare sa maison"**. In English, this means **"The woman is fixing her home"** to which the model translated:
+
 ![image](https://github.com/AbdAftab/Seq2Seq-Translator/assets/57965010/796ceaa3-ae34-4a4a-9216-d773237a52ee)
 
 Ended up doing pretty good on this example, but performance still varies.
