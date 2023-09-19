@@ -33,3 +33,5 @@ Using a version of the model that was stopped at ~50 epochs in, I fed it a new s
 ![image](https://github.com/AbdAftab/Seq2Seq-Translator/assets/57965010/796ceaa3-ae34-4a4a-9216-d773237a52ee)
 
 Ended up doing pretty good on this example, but performance still varies.
+
+TODO: Maybe use Bleu score to show quality
